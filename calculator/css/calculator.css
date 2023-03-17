@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: red
+}
+
+.body {
+    margin-top: 40px;
+    height: 400px;
+}
+
+.wrapper {
+    width: 25%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 15px;
+    padding-top: 7%;
+}
+
+@media screen and (min-width: 769px) {
+    .wrapper {
+        width: 18%;
+    }
+}
+
+.container {
+    width: 95%;
+    height: 75%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+div.input {
+    width: 95%;
+    display: flex; 
+    margin: 0 auto;
+}
+
+input {
+    width: 100%; 
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    background-color: black;
+ }
+
+ @media screen and (min-width: 769px) {
+    input {
+        font-size: 40px;
+    }
+ }
+
+ input::placeholder {
+    color: white;
+ }
+
+.black, .grey, .orange{
+    width: 30%;
+    height: 80%;
+    border: 1px solid #222222;
+    border-radius: 50%;
+    color: #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 481px) {
+    .black, .grey, .orange {
+        font-size: 17px;
+    }
+ }
+
+@media screen and (min-width: 769px) {
+    .black, .grey, .orange {
+        font-size: 20px;
+    }
+ }
+
+.black {
+    background-color: #111111;
+}
+
+.grey {
+    background-color: #706b6b;
+    color: #111111;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+.big-black {
+    width: 60%;
+    height: 80%;
+    font-size: 10px;
+    border: 1px solid #222222;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 2%;
+    background-color: #111111;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 481px) {
+    .big-black {
+        font-size: 17px;
+    }
+ }
+
+@media screen and (min-width: 769px) {
+    .big-black {
+        font-size: 20px;
+    }
+ }
+
+.f-row, .s-row, .t-row, .fo-row, .fi-row {
+    display: flex;
+    height: 20%;
+    gap: 5px;
+}
+
+.down-line {
+    width: 25%;
+    height: 5%;
+    border-bottom: 2px solid #ffffff;
+    margin: 0 auto;
+}
+
+
