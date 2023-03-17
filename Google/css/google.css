@@ -1,0 +1,164 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+li{
+    list-style-type: none;
+    display: inline;            
+}
+
+nav>ul>li>a>img {
+    width: 25px;
+}
+
+nav>ul{
+    text-align: right;
+}
+
+nav>ul>li{
+    padding: 7px;  
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+nav>ul>li:last-child a{
+    background-color: #1a73e8;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+nav>ul>li>a:hover{
+    text-decoration: underline;
+}
+
+nav>ul>li:last-child a:hover {
+    text-decoration: none;
+    background-color: #1a0dab;
+}
+
+main{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input{
+    width: 480px;
+    font-size: 18px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    margin: 20px 0;
+    padding: 12px 50px;
+}
+
+.input{
+    position: relative;
+}
+
+.search_icon{
+    width: 18px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+.microphone{
+    width: 40px;
+    position: absolute;
+    top: 32px;
+    right: 55px;
+}
+
+.camera {
+    width: 25px;
+    position: absolute;
+    top: 34px;
+    right: 25px;
+}
+
+button{
+    font-size: 14px;
+    padding: 9px 16px;
+    margin: 10px 4px;
+    border-radius: 6px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #3c4043;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 1px solid #dfe1e5;
+    margin: 0 3px;
+}
+
+.language{
+    padding-bottom: 170px;
+}
+
+.language>ul>li{
+    font-size: 15px;
+    padding: 3px;
+}
+
+.language>ul>li>a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.language>ul>li>a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #f2f2f2;
+}
+
+footer p{
+    color: #70757a;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px 0px 8px 50px;
+}
+
+hr{
+    border: 1px solid #dfe1e5;
+}
+
+footer .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .flex div:last-child ul {
+    padding-right: 25px;
+}
+
+.flex-child>ul>li{
+    font-size: 16px;
+    padding: 15px;
+}
+
+.flex-child>ul>li>a{
+    text-decoration: none;
+    color: #70757a;
+}
+
+.flex-child>ul>li>a:hover{
+    text-decoration: underline;
+}
+
+.carbon{
+    width: 10px;
+    margin-right: 5px;
+}
