@@ -1,0 +1,291 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 95px;
+}
+
+.sky {
+    background-color: #0e3074;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 8px;
+}
+
+.sky a {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.sports-wrapper {
+    background-color: #eb1127;
+    display: flex;
+    width: 77%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 200px;
+}
+
+.sports a {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.sports-wrapper ul img {
+    width: 15px;
+    margin-right: 10px;
+}
+/* @media screen and (max-width: 480px){
+    .sports-wrapper ul {
+        display: none;
+    }
+} */
+
+.sports-wrapper ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.sports-wrapper ul li a {
+    color: #ffffff;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sports-wrapper ul li a:hover {
+    padding: 5px 15px;
+    text-decoration: underline;
+    background-color: #d20218;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 0 138px;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+/* @media screen and (max-width: 480px) {
+    nav {
+        display: none;
+    }
+    
+} */
+
+.nav-links ul li {
+    display: inline;
+}
+
+.nav-links ul li a {
+    color: #5a5a5a;
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+.nav-links ul li a:hover {
+    background-color: #f0f0f0;
+    text-decoration: underline;
+    padding: 18px 10px;
+}
+
+.nav-links ul li a img {
+    width: 8px;
+}
+
+.nav-images {
+    display: flex;
+    margin-left: 70px;
+}
+
+.nav-images ul li {
+    display: inline;
+    padding: 0 5px;  
+}
+
+.nav-images ul li img {
+    width: 30px;
+}
+
+.watch-sports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.watch-sports a {
+    background-color: #d20218;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.watch-sports a:hover {
+    background-color: #b20005;
+}
+
+main {
+    background-color: #dcdae1;
+    padding: 40px 190px;
+}
+
+.big-frame {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 970px;
+    height: 370px;
+    padding: 0 5px;
+    background-color: #e6e9e7;
+    position: relative;
+}
+/* @media screen and (max-width: 480px) {
+    .big-frame{
+        width: 100%;
+    }
+    .main{
+        padding: 5px;
+    }
+    
+} */
+
+.big-img{
+    height: 360px;
+}
+
+.big-img>a>img {
+    width: 660px;
+    height: 360px; 
+}
+
+.play-icon {
+    width: 80px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    opacity: 0.5;
+}
+
+.football {
+    width: 250px;
+    padding: 30px;
+    background-color: #ffffff;
+    height: 300px;
+}
+
+.football p a {
+    font-size: 14px;
+}
+
+.football p a:hover {
+    text-decoration: underline;
+    color: #4a4a4a;
+}
+
+.football>a {
+    font-size: 30px;
+    color: #4a4a4a;
+}
+
+.football>a:hover {
+    text-decoration: underline;
+}
+
+.football ul {
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+.football ul li {
+    padding-bottom: 10px;
+}
+
+.football ul li a {
+    color: #5a5a5a;
+}
+
+.football ul li a:hover {
+    text-decoration: underline;
+}
+
+.football ul img {
+    width: 8px;
+    margin-left: 3px;
+}
+
+.container {
+    display: flex;
+    width: 980px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-frame {
+    background-color: #e6e9e7;
+    width: 360px;
+    height: 350px;
+    padding: 5px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.small-img {
+    height: 175px;
+    position: relative;
+}
+
+.small-img>img {
+    width: 300px;
+    height: 175px;
+}
+
+.play {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    left: 15px;
+    opacity: 0.6;
+}
+
+.write-up {
+    background-color: #fbfbfc;
+    height: 115px;
+    padding: 30px;
+}
+
+.write-up p {
+    margin-top: 0;
+}
+
+.write-up p a:hover {
+    color: #4a4a4a;
+    text-decoration: underline;
+}
+
+.write-up>a {
+    font-size: 22px;
+    color: #5a5a5a;
+}
+
+.write-up>a:hover {
+    text-decoration: underline;
+}
