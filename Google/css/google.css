@@ -1,8 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    height: 100vh;
-    overflow: hidden;
 }
 
 li{
@@ -10,26 +8,26 @@ li{
     display: inline;            
 }
 
-nav>ul>li>a>img {
+nav ul li a img {
     width: 25px;
 }
 
-nav>ul{
+nav ul{
     text-align: right;
 }
 
-nav>ul>li{
+nav ul li{
     padding: 7px;  
 }
 
-nav>ul>li>a{
+nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 15px;
     vertical-align: middle;
 }
 
-nav>ul>li:last-child a{
+nav ul li:last-child a{
     background-color: #1a73e8;
     padding: 10px 25px;
     color: white;
@@ -37,11 +35,11 @@ nav>ul>li:last-child a{
     margin-right: 8px;
 }
 
-nav>ul>li>a:hover{
+nav ul li a:hover{
     text-decoration: underline;
 }
 
-nav>ul>li:last-child a:hover {
+nav ul li:last-child a:hover {
     text-decoration: none;
     background-color: #1a0dab;
 }
@@ -59,6 +57,7 @@ input{
     border-radius: 25px;
     margin: 20px 0;
     padding: 12px 50px;
+    outline-color: #dfe1e5;
 }
 
 .input{
@@ -102,26 +101,25 @@ button:hover{
     margin: 0 3px;
 }
 
-.language{
-    padding-bottom: 170px;
-}
-
-.language>ul>li{
+.language ul li{
     font-size: 15px;
     padding: 3px;
 }
 
-.language>ul>li>a{
+.language ul li a{
     text-decoration: none;
     color: #1a0dab;
 }
 
-.language>ul>li>a:hover{
+.language ul li a:hover{
     text-decoration: underline;
 }
 
 footer{
     background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p{
@@ -144,17 +142,17 @@ footer .flex div:last-child ul {
     padding-right: 25px;
 }
 
-.flex-child>ul>li{
+.flex-child ul li{
     font-size: 16px;
     padding: 15px;
 }
 
-.flex-child>ul>li>a{
+.flex-child ul li a{
     text-decoration: none;
     color: #70757a;
 }
 
-.flex-child>ul>li>a:hover{
+.flex-child ul li a:hover{
     text-decoration: underline;
 }
 
