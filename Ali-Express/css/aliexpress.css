@@ -1,0 +1,407 @@
+:root {
+    --color-ali: #ff4747;
+}
+
+.row {
+    --bs-gutter-x: 1rem;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.nav-link {
+    color: #66667d
+}
+
+.nav-link:hover {
+    color: var(--color-ali);
+    transition: 0.5s;
+}
+
+.nav-link:focus {
+    color: #66667d;
+}
+
+.navbar-nav .nav-item:first-child .nav-link:hover,
+.navbar-nav .nav-item:nth-child(3) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(7) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(10) .nav-link:hover {
+    background-color: #ffffff;
+}
+
+.dropdown-item {
+    font-size: 13px;
+}
+
+.nav-select .h6 {
+    font-size: 13px;
+}
+
+.btn-ali {
+    background-color: var(--color-ali);
+    color: #ffffff;
+}
+
+.btn-ali2 {
+    background-color: #FFF1F1;
+    color: var(--color-ali);
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.header-search {
+    border: 2px solid var(--color-ali);
+    border-radius: 6px;
+}
+
+.header-search .form-control {
+    border: 1px solid var(--color-ali);
+    font-size: 14px;
+}
+
+.header-search .form-control:focus {
+    box-shadow: none;
+}
+
+.header-search .form-control::placeholder {
+    color: #B7B2B7
+}
+
+.header-search .input-group-text {
+    border: 1px solid var(--color-ali);
+    background-color: var(--color-ali);
+    color: #ffffff;
+}
+
+.header-search .input-group-text .fa-magnifying-glass {
+    width: 20px;
+    font-size: 18px;
+}
+
+.cart {
+    position: relative;
+    padding-top: 10px;
+}
+
+.cart .fa-cart-shopping {
+    font-size: 30px;
+    color: #111;
+    padding-left: 10px;
+}
+
+.cart .fa-cart-shopping:hover {
+    color: var(--color-ali);
+}
+
+.header-search-list {
+    font-size: 12px;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    padding-top: 0.25rem;
+    gap: 0.25rem;
+}
+
+.header-search-list a {
+    color: #66667d;
+    text-decoration: none;
+}
+
+.header-search-list a:hover {
+    color: var(--color-ali);
+    transition: 0.5s;
+}
+
+.header-search-list span {
+    height: 0.75rem;
+    align-self: center;
+}
+
+.categories {
+    font-size: 14px;
+    height: 100%;
+}
+
+.list-group {
+    border-radius: 10px;
+    height: 100%;
+}
+
+.list-group-item {
+    border: none;
+    height: 100%;
+}
+
+.list-group-item.active {
+    color: #111;
+    background-color: #f9f9f9;
+    border-color: #f9f9f9;
+}
+
+.categories a:hover {
+    border: 1px solid transparent;
+}
+
+.col-cat {
+    flex: 0 0 auto;
+    width: 10.33333333%;
+}
+  
+.reliable {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    border-radius: 6px;
+}
+
+.fave {
+    background: url(../img/fave-bg.jpg);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.fave-header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.welcome {
+    background-color: #ffffff;
+    padding: 1rem 0;
+    border-radius: 6px;
+}
+
+.welcome p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.welcome button:first-child {
+    background-color: var(--color-ali);
+    width: 6rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.welcome button:nth-child(2) {
+    background-color: #f9f9f9;
+    width: 6rem;
+    color: #111111;
+    font-weight: 500;
+}
+
+.super div:first-child a {
+    text-decoration: none;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    color: #111111;
+    letter-spacing: -1px;
+}
+
+.super div:first-child span {
+    color: var(--color-ali);
+}
+
+.super div:last-child a {
+    text-decoration: none;
+    color: #66667d;
+}
+
+.view-more a {
+    text-decoration: none;
+    color: #66667d;
+}
+
+.view-more a:hover {
+    color: var(--color-ali);
+}
+
+.image-card a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.image-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-card span {
+    background-color: #F55103;
+    border-radius: 0 0 8px 0;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    padding: 0 2px;
+}
+
+.deals div:first-child a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.deals div:last-child a {
+    text-decoration: none;
+    color: #66667d;
+}
+
+.weekly-deals .image-card img {
+    height: 170px;
+}
+
+.arrow-down {
+    font-size: 14px;
+    background-color: #FC1F67;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.more2love .line {
+    align-self: center;
+    margin: 0px 25px;
+    width: 6rem;
+    border-top: 2px solid #999999;
+}
+
+@media screen and (min-width: 769px) {
+    .more2love .line {
+        width: 10rem;
+    }
+}
+
+.samples a {
+    text-decoration: none;
+    color: #66667d;
+}
+
+.big-card {
+    background-color: #ffffff;
+    border-radius: 5px; 
+    overflow: hidden; 
+}
+
+.big-card:hover {
+    border: 3px solid orangered;
+}
+
+.big-card img {
+    width: 100%;
+    height: 10rem;
+    border-radius: 6px;
+}
+
+.big-card .price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FD384F;
+    padding-top: 15px;
+}
+
+.big-card .price span {
+    color: #66667d;
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.big-card .free {
+    color: #42A06D;
+}
+
+.footer-top1 i {
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.footer-top1 p, .footer-top2 p {
+    font-weight: 600;
+}
+
+.smallfont {
+    font-size: 12px;
+    color: #66667d;
+}
+
+.footer-top1 span {
+    height: 60px;
+    align-self: center;
+    color: #B7B2B7;
+}
+
+.footer-top1 .download-d-app a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.footer-top1 .download-d-app a:hover {
+    color: var(--color-ali);
+}
+
+.footer-top2 .socials i {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.footer-top2 ul {
+    padding-left: 0;
+}
+
+.footer-top2 ul li {
+    list-style: none;
+}
+
+.footer-top2 ul li a {
+    font-size: 13px;
+    color: #66667d;
+    text-decoration: none;
+}
+
+.footer-middle {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    background-color: #E8E8E8;
+}
+
+.footer-middle p {
+    font-size: 500;
+}
+
+.footer-middle span a {
+    font-size: 13px;
+    color: #66667d;
+    text-decoration: none;
+}
+
+.footer-middle span a:hover {
+    color: var(--color-ali);
+}
+
+.footer-middle .app-logos img {
+    width: 7rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.footer-bottom {
+    background-color: #333333;
+    color: #a7a7a7;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #a7a7a7;
+}
