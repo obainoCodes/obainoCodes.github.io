@@ -1,0 +1,24 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    text-align: right;
+    border: 1px solid black!important;
+    box-shadow: none!important;
+}
+
+.btn {
+    background-color: burlywood;
+    font-weight: 500;
+    border-color: #111111;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
