@@ -1,14 +1,14 @@
-for (let x in localStorage){
-    let y = localStorage.getItem(x);
-    let z = JSON.parse(y);
-    let data;
-    data = `<tr>
-   <td>${z.userName}</td>
-   <td>${z.userEmail}</td>
-   <td>${z.acctBalance}</td>
-   </tr>`
-   console.log(data);
-   
-   document.getElementById('body').innerHTML += data;
+for (let user in localStorage){
+    if (localStorage.hasOwnProperty(user)){
+    let userDetials = localStorage.getItem(user);
+    userDetials = JSON.parse(userDetials);
+    let data = `<tr>
+                    <td>${userDetials.userName}</td>
+                    <td>${userDetials.userEmail}</td>
+                    <td>${userDetials.acctBalance}</td>
+                </tr>`
 
+    document.getElementById('body').innerHTML += data;
+    } 
+    
 }
